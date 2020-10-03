@@ -10,9 +10,12 @@ Coming Soon
 
 ## Jeff Goldblum SteamDeck Plugin
 
-Jeff Goldblum SteamDeck Plugin built with [StreamDeckToolkit]([StreamDeckToolkit](https://github.com/FritzAndFriends/StreamDeckToolkit))
+Jeff Goldblum SteamDeck Plugin built with ([StreamDeckToolkit](https://github.com/FritzAndFriends/StreamDeckToolkit))
 
-In the [StreamDeck](https://www.elgato.com/en/gaming/stream-deck) Action configure the type: `Words`, `Quotes`, `Paragraphs` and the number you wish to receive
+Creates a file `C:\Users\<User>\Documents\JeffSum\quote.txt` to use inside OBS.
+
+In the [StreamDeck](https://www.elgato.com/en/gaming/stream-deck) Action configure the type: `Words`, `Quotes`, `Paragraphs` and the number you wish to receive.
+
 ![StreamDeck](docs/screenshots/StreamDeck.png)
 
 Info about the Action
