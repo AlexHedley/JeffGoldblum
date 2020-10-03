@@ -16,7 +16,7 @@
     }
   ],
   "Category": "Jeff Goldblum",
-  "CategoryIcon": "images/category/categoryIcon.png",
+  "CategoryIcon": "images/category/categoryIcon",
   "Disabled": false,
   "Author": "Alex Hedley",
   "CodePathWin": "JeffGoldblumPlugin.exe",
