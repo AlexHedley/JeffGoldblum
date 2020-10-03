@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>JeffGoldblumPlugin Property Inspector</title>
+	<link rel="stylesheet" href="css/sdpi.css">
+	<link rel="stylesheet" href="css/property-inspector.css">
+</head>
+<body>
+	<div class="sdpi-wrapper">
+		<!-- for more examples of the types of fields supported in property inspector visit:
+			Elgato Github PiSamples -> https://github.com/elgatosf/streamdeck-pisamples
+			and
+			Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
+	-->
+
+		<div class="sdpi-item" id="count_value">
+			<div class="sdpi-item-label">Count Value</div>
+			<input id="txtCountValue" class="sdpi-item-value" type="number" inputmode="numeric" pattern="[0-9]*" placeholder="Enter number of items"
+				   onchange="setSettings(event.target.value, 'Count')" />
+		</div>
+
+		<div class="sdpi-item" id="type_value">
+			<div class="sdpi-item-label">Jeffsum Value</div>
+			<input id="txtJeffsumTypeValue" class="sdpi-item-value" type="text" placeholder="Words | Quotes | Paragraphs"
+				   onchange="setSettings(event.target.value, 'JeffsumType')" />
+		</div>
+
+		<!--<div class="sdpi-item" id="type_value">
+			<div class="sdpi-item-label">Jeffsum Type</div>
+			<select class="sdpi-item-value select" id="jeffsumtype" onchange="setSettings(this.options[this.selectedIndex].value, 'JeffsumType')">
+				<option value="0">Words</option>
+				<option value="1">Quotes</option>
+				<option value="2">Paragraphs</option>
+			</select>
+		</div>-->
+
+	</div>
+	<script src="js/property-inspector.js"></script>
+</body>
+</html>
